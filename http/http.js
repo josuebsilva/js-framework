@@ -1,4 +1,4 @@
-var Http = function(url){
+function Http(url){
     var method = null;
     var host = url;
     var body = null;
@@ -7,6 +7,10 @@ var Http = function(url){
 
     this.setMethod = function(param){
         method = param;
+    };
+
+    this.GoTo = function(url){
+        window.location.href = url;
     };
 
     this.setHost = function(param){
@@ -47,4 +51,10 @@ var Http = function(url){
         DLETE: "DELETE",
         PUT: "PUT"
     }
-};
+
+    this.Status = {
+        ERROR: 400,
+        OK: 200,
+        INTERNAL_ERROR:500
+    }
+}
