@@ -24,3 +24,15 @@ Alert
     
     // if you need clear alert, call clear(), look. 
     alert.clear();
+
+
+Util/Collapse
+
+#How use. 
+Import script in html and import font-awesome 
+<script defer src="assets/js-framework/collapse.js"></script>
+
+Add in tags
+<div class="collapse-effect" data-target="#panel" collapsed="true"><i class="fa fa-angle-up"></i></div>
+
+<div id="panel"></div>
