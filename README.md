@@ -28,11 +28,11 @@ Alert
 
 Util/Collapse
 
-#How use. 
-Import script in html and import font-awesome 
-<script defer src="assets/js-framework/collapse.js"></script>
+    How use. 
+    Import script in html and import font-awesome 
+    <script defer src="assets/js-framework/collapse.js"></script>
 
-Add in tags
-<div class="collapse-effect" data-target="#panel" collapsed="true"><i class="fa fa-angle-up"></i></div>
+    Add in tags
+    <div class="collapse-effect" data-target="#panel" collapsed="true"><i class="fa fa-angle-up"></i></div>
 
-<div id="panel"></div>
+    <div id="panel"></div>
